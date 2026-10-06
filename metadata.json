@@ -1,0 +1,6 @@
+{
+  "name": "GitPost",
+  "description": "Décompressez vos archives ZIP/TAR et déployez atomiquement votre code sur vos dépôts GitHub sans effort via OAuth GitHub. Créé par plag_tech.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
