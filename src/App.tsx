@@ -145,7 +145,7 @@ export default function App() {
     const handleOAuthMessage = async (event: MessageEvent) => {
       const origin = event.origin;
       // Valider l'origine
-      if (!origin.endsWith('.run.app') && !origin.includes('localhost') && !origin.includes('127.0.0.1')) {
+      if (origin !== window.location.origin || event.source !== window) {
         return;
       }
 
